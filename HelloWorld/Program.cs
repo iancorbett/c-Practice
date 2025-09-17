@@ -26,8 +26,8 @@ namespace Story
     {
         static void Main(string[] args)
         {
-            string characterName = "John";
-            int characterAge;
+            string characterName = "John"; //must declare type, c# is statically typed
+            int characterAge; //must declare type, c# is statically typed
             characterAge = 35;
 
             Console.WriteLine("Hello, my name is " + characterName + "!");
