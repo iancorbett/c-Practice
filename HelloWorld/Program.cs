@@ -35,6 +35,11 @@ namespace Story
             Console.WriteLine("  /|");            
             Console.WriteLine(" / |");
             Console.WriteLine("/__|");
+
+            characterName = "Mike";
+            Console.WriteLine("Hello, my name is " + characterName + "!");
+            characterAge = 25;
+            Console.WriteLine("I am " + characterAge + " years old!"); 
         }
     }
 }
