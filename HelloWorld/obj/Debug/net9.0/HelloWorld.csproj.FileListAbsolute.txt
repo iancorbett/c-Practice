@@ -12,3 +12,4 @@
 /Users/iancorbett/Desktop/c#Practice/HelloWorld/obj/Debug/net9.0/HelloWorld.pdb
 /Users/iancorbett/Desktop/c#Practice/HelloWorld/obj/Debug/net9.0/HelloWorld.genruntimeconfig.cache
 /Users/iancorbett/Desktop/c#Practice/HelloWorld/obj/Debug/net9.0/ref/HelloWorld.dll
+/Users/iancorbett/Desktop/c#Practice/HelloWorld/obj/Debug/net9.0/HelloWorld.sourcelink.json
