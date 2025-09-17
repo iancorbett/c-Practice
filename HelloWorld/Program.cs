@@ -20,26 +20,42 @@
 //     }
 // }
 
+// namespace Story
+// {
+//     class Program
+//     {
+//         static void Main(string[] args)
+//         {
+//             string characterName = "John"; //must declare type, c# is statically typed
+//             int characterAge; //must declare type, c# is statically typed
+//             characterAge = 35;
+
+//             Console.WriteLine("Hello, my name is " + characterName + "!");
+//             Console.WriteLine("I am " + characterAge + " years old!");           
+//             Console.WriteLine("  /|");            
+//             Console.WriteLine(" / |");
+//             Console.WriteLine("/__|");
+
+//             characterName = "Mike";
+//             Console.WriteLine("Hello, my name is " + characterName + "!");
+//             characterAge = 25;
+//             Console.WriteLine("I am " + characterAge + " years old!"); 
+//         }
+//     }
+// }
+
 namespace Story
 {
     class Program
     {
         static void Main(string[] args)
         {
-            string characterName = "John"; //must declare type, c# is statically typed
-            int characterAge; //must declare type, c# is statically typed
-            characterAge = 35;
-
-            Console.WriteLine("Hello, my name is " + characterName + "!");
-            Console.WriteLine("I am " + characterAge + " years old!");           
-            Console.WriteLine("  /|");            
-            Console.WriteLine(" / |");
-            Console.WriteLine("/__|");
-
-            characterName = "Mike";
-            Console.WriteLine("Hello, my name is " + characterName + "!");
-            characterAge = 25;
-            Console.WriteLine("I am " + characterAge + " years old!"); 
+            string phrase = "Hey There!"; 
+            char grade = 'A';
+            int age = 30;
+            //float, double, decimal ;
+            double gpa = 3.2;
+            bool isMale = true;
         }
     }
 }
