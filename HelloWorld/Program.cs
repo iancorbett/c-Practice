@@ -44,18 +44,52 @@
 //     }
 // }
 
+// namespace Story
+// {
+//     class Program
+//     {
+//         static void Main(string[] args)
+//         {
+//             string phrase = "Hey There!"; 
+//             char grade = 'A';
+//             int age = 30;
+//             //float, double, decimal ;
+//             double gpa = 3.2;
+//             bool isMale = true;
+//         }
+//     }
+// }
+
 namespace Story
 {
     class Program
     {
         static void Main(string[] args)
         {
-            string phrase = "Hey There!"; 
-            char grade = 'A';
-            int age = 30;
-            //float, double, decimal ;
-            double gpa = 3.2;
-            bool isMale = true;
-        }
+            Console.Write("Enter a number: ");
+            int num1 = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Enter another number: ");
+            int num2 = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Which operator would you like to use: +, -, *, or /");
+            string method = Console.ReadLine();
+            if (method == "+") {
+                int result = num1 + num2;
+                Console.WriteLine(result);
+            }
+            else if (method == "-") {
+                int result = num1 - num2;
+                Console.WriteLine(result);
+            }
+            else if (method == "*") {
+                int result = num1 * num2;
+                Console.WriteLine(result);
+            }
+            else if (method == "/") {
+                int result = num1 / num2;
+                Console.WriteLine(result);
+            }
+        
+        }   
     }
 }
+
